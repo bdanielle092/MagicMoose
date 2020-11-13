@@ -12,7 +12,9 @@ namespace EnthusiasticMoose
 
             //let the moose speak!
             MooseSays("Ask me a question...");
+            Console.ReadLine();
         }
+
 
         static void MooseSays(string message)
         {
