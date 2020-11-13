@@ -6,15 +6,19 @@ namespace EnthusiasticMoose
     {
         static void Main(string[] args)
         {
+            // welcomes user
             Console.WriteLine("Welcome to Magic Moose !");
             Console.WriteLine("--------------------------------------------");
             Console.WriteLine();
 
             //let the moose speak!
+            //We use MooseSays method to prompt user to ask a question
             MooseSays("Ask me a question...");
+            //Line 17 allows user to ask a question 
             Console.ReadLine();
         }
 
+//MooseSays Method allow the moose to say something to the user
 
         static void MooseSays(string message)
         {
